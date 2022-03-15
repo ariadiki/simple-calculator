@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ripple">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#0090FF</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+        <item name="mrl_rippleRoundedCorners">20dp</item>
+    </style>
+</resources>

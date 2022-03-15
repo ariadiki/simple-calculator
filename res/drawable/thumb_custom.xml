@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_checked="false"
+    android:drawable="@drawable/ic_dark">
+    <shape android:shape="oval">
+        <solid android:color="@color/dark_white"/>
+        <stroke android:color="#454545" android:width="2dp"/>
+        <size android:width="20dp"
+            android:height="40dp"/>
+    </shape>
+</item>
+    <item android:state_checked="true"
+        android:drawable="@drawable/ic_light">
+        <shape android:shape="oval">
+            <solid android:color="@color/white"/>
+            <stroke android:color="@color/cyan" android:width="2dp"/>
+            <size android:width="40dp"
+                android:height="40dp"/>
+        </shape>
+    </item>
+</selector>
